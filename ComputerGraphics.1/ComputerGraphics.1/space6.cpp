@@ -61,6 +61,7 @@
 //	glLoadIdentity();
 //	gluPerspective(45.f, 1.0, 1.f, 1000.f);
 //	glTranslatef(0.f, 0.f, -500.f);
+//
 //	glRotatef(xRotate, 1.f, 0.f, 0.f);
 //	glRotatef(yRotate, 0.f, 1.f, 0.f);
 //	glRotatef(zRotate, 0.f, 0.f, 1.f);
@@ -224,7 +225,7 @@
 //		::y -= 2;
 //		break;
 //	case 'c':
-//		shape = shape + 1 % 4;
+//		shape = (shape + 1) % 4;
 //		break;
 //	}
 //	glutPostRedisplay();
