@@ -12,3 +12,11 @@ MakeNoDifference/MakeNoDifference/MakeNoDifference.vcxproj
 MakeNoDifference/MakeNoDifference/MakeNoDifference.vcxproj
 *.vcxproj
 *.vcxproj
+*.ipch
+*.log
+*.tlog
+*.db
+*.suo
+*.pdb
+*.ilk
+*.sqlite
